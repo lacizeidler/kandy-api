@@ -1,0 +1,202 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "KitKat",
+      "productTypeId": 1,
+      "price": 2
+    },
+    {
+      "id": 2,
+      "name": "Gummie Bears",
+      "productTypeId": 3,
+      "price": 1.5
+    },
+    {
+      "id": 3,
+      "name": "Jolly Ranchers",
+      "productTypeId": 2,
+      "price": 1
+    },
+    {
+      "id": 4,
+      "name": "Reeses",
+      "productTypeId": 1,
+      "price": 1.75
+    },
+    {
+      "id": 5,
+      "name": "Peach Rings",
+      "productTypeId": 3,
+      "price": 0.5
+    },
+    {
+      "id": 6,
+      "name": "Jawbreaker",
+      "productTypeId": 2,
+      "price": 2.5
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "customerId": 1,
+      "productLocationId": 1
+    },
+    {
+      "id": 2,
+      "customerId": 2,
+      "productLocationId": 2
+    },
+    {
+      "id": 3,
+      "customerId": 3,
+      "productLocationId": 3
+    },
+    {
+      "customerId": 2,
+      "productLocationId": 5,
+      "id": 4
+    },
+    {
+      "customerId": 2,
+      "productLocationId": 6,
+      "id": 5
+    },
+    {
+      "customerId": 3,
+      "productLocationId": 3,
+      "id": 6
+    },
+    {
+      "customerId": 3,
+      "productLocationId": 2,
+      "id": 7
+    }
+  ],
+  "productLocations": [
+    {
+      "id": 1,
+      "productId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "productId": 2,
+      "locationId": 2
+    },
+    {
+      "id": 3,
+      "productId": 3,
+      "locationId": 3
+    },
+    {
+      "id": 4,
+      "productId": 4,
+      "locationId": 1
+    },
+    {
+      "id": 5,
+      "productId": 5,
+      "locationId": 2
+    },
+    {
+      "id": 6,
+      "productId": 6,
+      "locationId": 3
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Laci Zeidler",
+      "address": "4489 Primrose Road",
+      "email": "laci@zeidler.com"
+    },
+    {
+      "id": 2,
+      "name": "Alex Miller",
+      "address": "101 Mulberry St.",
+      "email": "alex@miller.com"
+    },
+    {
+      "id": 3,
+      "name": "Jordyn Wieland",
+      "address": "102 Mulberry St. ",
+      "email": "jordyn@wieland.com"
+    },
+    {
+      "id": 4,
+      "name": "Leah Hopp",
+      "address": "500 Prince Drive",
+      "email": "leah@hopp.com"
+    },
+    {
+      "id": 5,
+      "name": "Jordan Risley",
+      "address": "1101 Peach Ave. ",
+      "email": "jordan@risley.com"
+    },
+    {
+      "name": "Jim Davis",
+      "address": "600 Jim Davis Rd",
+      "email": "jim@davis.com",
+      "id": 6
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "type": "Chocolates"
+    },
+    {
+      "id": 2,
+      "type": "Hard Candies"
+    },
+    {
+      "id": 3,
+      "type": "Gummies"
+    }
+  ],
+  "employees": [
+    {
+      "name": "Tim Zeidler",
+      "manager": true,
+      "locationId": "2",
+      "fullTime": true,
+      "hourlyRate": "23",
+      "id": 1
+    },
+    {
+      "name": "Phil Baker",
+      "manager": false,
+      "locationId": "3",
+      "fullTime": true,
+      "hourlyRate": "15",
+      "id": 2
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "address": "383 Rich Ave",
+      "name": "Dallas",
+      "squareFootage": 3000,
+      "handicapAccessible": "true"
+    },
+    {
+      "id": 2,
+      "address": "392 Pumpkin St",
+      "name": "Chicago",
+      "squareFootage": 2000,
+      "handicapAccessible": "false"
+    },
+    {
+      "id": 3,
+      "address": "2342 Western Boulevard",
+      "name": "Los Angeles",
+      "squareFootage": 3000,
+      "handicapAccessible": "true"
+    }
+  ]
+}
